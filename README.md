@@ -1,1 +1,2 @@
-# Etch-a-Sketch
+In Etch-a-Sketch, I will use this project to improve my understanding of Javascript logic. 
+I will create a webpage with a 16x16 grid of square divs. It allows you to pick any color to design and you can change the amount of squares. 
