@@ -1,6 +1,7 @@
 const gridContainer = document.getElementById('grid-container');
 const colorPicker = document.getElementById('colorPicker');
 const newGrid = document.getElementById('grid-size');
+const resetGrid = document.getElementById('reset-grid');
 const randomColorModeButton = document.getElementById('random-color-mode');
 let isDrawing = false;
 let randomColorMode = false;
@@ -55,4 +56,11 @@ gridContainer.addEventListener('mousemove', (e) => {
             e.target.style.backgroundColor = colorPicker.value;
         }
     }
+});
+
+resetGrid.addEventListener('click', () => {
+    const gridItems = document.querySelectorAll('.grid-item');
+    gridItems.forEach(item => {
+        item.style.backgroundColor = '';
+    });
 });

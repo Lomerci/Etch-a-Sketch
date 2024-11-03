@@ -35,3 +35,8 @@ button {
     border-radius: 5px;
     border: 2px solid orange;
 }
+
+.drawing-container {
+    display: flex;
+    gap: 40px;
+}
